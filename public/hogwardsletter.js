@@ -11,7 +11,11 @@ export default function Home() {
       <Head>
         <title>Carta de Hogwarts</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Playfair+Display:wght@400;700&display=swap"
           rel="stylesheet"
@@ -40,23 +44,21 @@ export default function Home() {
             </p>
 
             <p>
-              Este ingresso concede acesso a um dia inteiramente dedicado à magia,
-              histórias, personagens e encantamentos que fizeram de Hogwarts um lugar
-              tão especial no seu coração. 
+              Este ingresso concede acesso a um dia inteiramente dedicado à
+              magia, histórias, personagens e encantamentos que fizeram de
+              Hogwarts um lugar tão especial no seu coração.
             </p>
 
             <p>
-              Além disso você tem direito à uma varinha exclusiva, visto que possui uma recomendação
-              especial (mais conhecida como pré-venda).
+              Além disso você tem direito à uma varinha exclusiva, visto que
+              possui uma recomendação especial (mais conhecida como pré-venda).
             </p>
             <p>
-               Sabemos o quão apaixonada a Srta. é pelo mundo bruxo, então esperamos que tire o máximo 
-               proveito dessa experiência.
+              Sabemos o quão apaixonada a Srta. é pelo mundo bruxo, então
+              esperamos que tire o máximo proveito dessa experiência.
             </p>
 
-            <p>
-               Além disso, à desejamos um feliz natal!
-            </p>
+            <p>Além disso, à desejamos um feliz natal!</p>
 
             <a
               href="/ingresso.pdf"
@@ -70,16 +72,20 @@ export default function Home() {
             <p className="closing">Atenciosamente,</p>
 
             <p className="signature">
-              Gabriel Victor McGonagall<br />
+              Gabriel Victor McGonagall
+              <br />
               Vice-Diretor
             </p>
           </section>
 
           <footer className="footer">
             <p>
-              Escola de Magia e Bruxaria de Hogwarts<br />
-              Diretor: Albus Dumbledore Alves da Silva<br />
-              (Ordem de Merlin, Primeira Classe e Analista de Sistemas da TV Rio Sul)
+              Escola de Magia e Bruxaria de Hogwarts
+              <br />
+              Diretor: Albus Dumbledore Alves da Silva
+              <br />
+              (Ordem de Merlin, Primeira Classe e Analista de Sistemas da TV Rio
+              Sul)
             </p>
           </footer>
         </article>
@@ -100,9 +106,9 @@ export default function Home() {
           max-width: 720px;
           width: 100%;
           padding: 56px 64px;
-          font-family: 'IM Fell English', serif;
+          font-family: "IM Fell English", serif;
           color: #3b2a1a;
-          box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+          box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
           border-radius: 2px;
         }
 
@@ -147,7 +153,7 @@ export default function Home() {
         }
 
         .signature {
-          font-family: 'Playfair Display', serif;
+          font-family: "Playfair Display", serif;
           font-size: 22px;
           margin-top: 8px;
         }
@@ -162,4 +168,3 @@ export default function Home() {
     </>
   );
 }
-
