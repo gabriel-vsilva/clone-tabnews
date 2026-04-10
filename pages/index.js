@@ -53,31 +53,34 @@ function Home() {
 
       <p>
         <b>Log do Sistema:</b>O devdiario.com.br ainda está tomando forma, mas o
-        primeiro registro e o primeiro acesso não poderia ser outro, a não ser o
-        seu.
+        primeiro acesso não poderia ser outro, a não ser o seu.
       </p>
 
       <p>
         Sei que o dia de ontem foi cansativo, por conta dos afazeres, daqueles
-        pestinhas do curso também, mas ocê tem dado o seu melhor, vejo isso todo
-        dia, o tanto de coisa que dá conta, apesar dos dias puxados, você se
-        esforça e isso é admirável em você, meu bem!
+        pestinhas do curso também, a semana como um todo, mas ocê tem dado o seu
+        melhor, vejo isso todo dia, no tanto de coisa que dá conta, apesar dos
+        dias puxados, você continua se esforçando e isso é admirável em você,
+        meu bem!
       </p>
 
       <p>
         Eu espero que tenha descansado bem, que seu dia hoje seja mais leve, e
-        nisso eu vou fazer o possível pra contribuir também, afinal, hoje você
-        tem uma pizza agendada pra mais tarde, com direito à sobremesa,
-        preguicinha e muitos carinhos, tudo na medida pra te cuidar e confortar.
+        nisso eu vou fazer o possível pra contribuir, afinal, hoje você tem uma
+        pizza agendada pra mais tarde, com direito à sobremesa e preguicinha,
+        tudo na medida.
       </p>
+
+      <p>Você é meu norte e minha sorte.</p>
 
       <p>
-        Você é meu norte e minha sorte, tô sempre aqui por você. Logo menos vai
-        ter mais coisa aqui, todo progresso quero que veja, é importante pra
-        mim, você é importante.
+        Logo menos vai ter mais coisas por aqui, vou te atualizando das minhas
+        nerdices sempre que possível.
       </p>
 
-      <button onClick={() => setShowFlower(true)}>Clica aqui um cadin</button>
+      <button onClick={() => setShowFlower(true)}>
+        Clica aqui um cadin, só pra eu ver um trem
+      </button>
 
       {showFlower && <div className="flower">🌹</div>}
     </div>
